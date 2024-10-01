@@ -2,7 +2,6 @@ import React from 'react';
 import List from '@mui/material/List';
 import type {TodolistType} from '../../../../../../app/App';
 import {Task} from './Task/Task';
-import {useAppDispatch} from '../../../../../../common/hooks/useAppDispatch';
 import {useAppSelector} from '../../../../../../common/hooks/useAppSelector';
 import {selectTasks} from '../../../../model/tasksSelectors';
 
